@@ -1,3 +1,6 @@
+import 'package:buckitlist/screen/setting.dart';
+import 'package:flutter/cupertino.dart';
+
 import 'package:flutter/material.dart';
 import 'screen/information.dart';
 
@@ -38,10 +41,7 @@ class _MainScreenExampleState extends State<MainScreenExample> {
       'Index 1: ㅁㅇㄴㄹ',
       style: optionStyle,
     ),
-    Text(
-      'Index 2: School',
-      style: optionStyle,
-    ),
+    Settings(),
     information(),
   ];
 
